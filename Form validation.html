@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link href="fv.css"  rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form style="font-size:20px;">
+        <fieldset>
+        <legend> Student Registrtion Form</legend>
+        <h1 id="heading"> Student Registration Details</h1>
+        <p id="para">(All Fields are Mandatory *)</p>
+        <div cellpadding="2" width="20%" align="left"
+        cellspacing="2">
+        <ul>
+        <li>
+        First name:<input type="text" id="fname" size="30"><br><br>
+        </li>
+        <li>
+        Last name:<input type="text" id="lname" size="30"><br><br>
+        </li>
+        <li>
+        USN:<input type="text" id="USN" size="30" ><br><br>
+        </li>
+        <li>
+        Semester:<input type="text" id="sem" size="30"><br><br>
+        </li>
+        <li>
+        Email ID:<input type="email" id="email" size="30"><br><br>
+        </li>
+        <li>
+        Phone no:<input type="tel" id="phone" size="30"><br><br>
+        </li>
+        <li>
+        Enter Address:<br>
+        <textarea rows="10" cols="50" id="address" size="30"></textarea><br><br>
+        </li>
+        <li>
+        Select Gender:<br>
+        <input type="radio" id="g1" size="30">Male
+        <input type="radio" id="g2">Female<br><br><br>
+        </li>
+            <li>
+            Select Your Branch:<br>
+            <select id="branch">
+            <option>--Select a Branch--</option>
+            <option>AE</option>
+            <option>AS</option>
+            <option>CS</option>
+            <option>IS</option>
+            </select>
+            </li>
+            <br><br>
+            <li>
+            Upload your image:
+            <input type="file" id="image"><br><br><br>
+            </li>
+            <li>
+            <input type="submit" id="submit" onclick="validate()" value="Submit the Information"
+            style="height:50px" >
+            <input type="reset" id="reset" size="30" value="Reset the Information" style="height:50px"><br>
+            </li>
+            </ul>
+            </div>
+            </fieldset>
+            </form>
+            <script src="js1.js"></script>
+            </body>
+            </html>
+</body>
+</html>

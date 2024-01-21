@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    }
+    ul {list-style-type:none;}
+    #heading{
+    text-decoration:underline;
+    font-style: italic;
+    color:black;
+    text-align:center;
+    }
+    #para{
+    font-size:20px;
+    font-style: italic;
+    color:rgb(5, 5, 6);
+    text-align:center;
+    }
+    
